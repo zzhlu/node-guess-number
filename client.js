@@ -12,7 +12,7 @@ const option = {
 request(option, (error, res, body) => {
   const answer = body;
   let chances = 6;
-  console.log(answer);
+
   console.log('Welcome!\n');
   console.log(`Please input your number(${chances}):`);
 
